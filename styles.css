@@ -1,0 +1,106 @@
+.nav-bar {
+  display: flex;
+  align-items: baseline;
+  gap: 10px;
+  padding-top: 5px;
+  font-style: normal;
+  justify-content: flex-end;
+}
+
+nav {
+  color: blue;
+  display: flex;
+}
+
+.individual-1 {
+  flex-grow: 20px;
+  font-style: normal;
+  margin-right: auto;
+  margin-left: 2rem;
+}
+
+p {
+  color: rgb(147, 147, 241);
+  width: 560px;
+}
+
+body {
+  height: 100vh;
+  overflow-y: auto;
+  background-color: white;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-style: normal;
+  width: auto;
+  background-image: url(./background.png);
+  background-size: contain;
+}
+
+.individual-2 {
+  font-style: normal;
+}
+
+.individual-3 {
+  font-style: normal;
+}
+
+.individual-4 {
+  font-style: normal;
+}
+
+.headline-container {
+  display: flex;
+  align-content: flex-start;
+  margin: 50px;
+}
+
+h1 {
+  color: rgb(108, 108, 154);
+}
+
+.social-media {
+  display: flex;
+  align-items: baseline;
+  min-height: 20px;
+  gap: 10px;
+}
+
+.twitter {
+  height: 15px;
+  width: 15px;
+}
+
+.linkedin {
+  height: 15px;
+  width: 15px;
+}
+
+.medium {
+  height: 15px;
+  width: 15px;
+}
+
+.github {
+  height: 15px;
+  width: 15px;
+}
+
+.angellist {
+  height: 15px;
+  width: 15px;
+}
+
+h4 {
+  color: rgb(162, 216, 234);
+}
+
+p:hover h1:hover h4:hover {
+  background-color: rgb(219, 227, 235);
+}
+
+nav:hover {
+  background-color: rgb(166, 174, 174);
+}
+
+img:hover {
+  background-color: rgb(184, 170, 170);
+}
