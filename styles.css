@@ -1,9 +1,9 @@
 .nav-bar {
   display: flex;
   align-items: baseline;
-  gap: 10px;
+  gap: 5px;
   width: 450px;
-  padding-top: 20px;
+  padding: 5px 5px 5px 0;
   font-style: normal;
   justify-content: flex-end;
   color: blue;
@@ -27,6 +27,7 @@ p {
 body {
   background-color: white;
   font-family: 'Poppins', sans-serif;
+  border: 2px #091e42;
 }
 
 .headline-container {
@@ -34,18 +35,19 @@ body {
 
   display: flex;
   align-content: flex-start;
-  margin: 50px;
+  margin: 20px;
   background-image: url(./images/background.png);
   background-repeat: no-repeat;
+  background-size: 440px;
 }
 
 h1 {
   color: #091e42;
   display: flex;
   flex-direction: row;
-  width: 270px;
-  padding-top: 70px;
-  margin-bottom: 0;
+  width: 280px;
+  padding-top: 40px;
+  margin-bottom: 5px;
   font-size: 40px;
   font-style: bold;
   font-family: 'Poppins', sans-serif;
