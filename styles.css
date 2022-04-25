@@ -391,3 +391,7 @@ hr.solid {
   width: 18px;
   height: 18px;
 }
+
+button:hover {
+  background-color: #1f31cf;
+}
