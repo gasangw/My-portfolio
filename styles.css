@@ -407,7 +407,7 @@ button:hover {
   max-height: 970px;
   height: auto;
   padding: 100px 24px 0 24px;
-  background: #6070FF;
+  background: #6070ff;
   border-top-left-radius: 50px;
   color: #ffff;
   text-align: center;
@@ -431,17 +431,17 @@ button:hover {
 }
 
 .formie .field {
-    width: 300px;
-    height: 48px;
-    border-radius: 8px;
-    font-size: 17px;
-    line-height: 20px;
-    font-weight: 400;
-    color: #172B4D;
-    border: none;
+  width: 300px;
+  height: 48px;
+  border-radius: 8px;
+  font-size: 17px;
+  line-height: 20px;
+  font-weight: 400;
+  color: #172b4d;
+  border: none;
 }
 
-.formie .field:focus{
+.formie .field:focus {
   border: none;
 }
 
@@ -455,13 +455,13 @@ button:hover {
   border: none;
 }
 
-.touch{
+.touch {
   padding: 12px 16px;
   background-color: white;
-  color:  #6070FF;
+  color: #6070ff;
   font-weight: 500;
-font-size: 17px;
-line-height: 24px;
-border: none;
-border-radius: 8px;
+  font-size: 17px;
+  line-height: 24px;
+  border: none;
+  border-radius: 8px;
 }
