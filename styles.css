@@ -18,13 +18,13 @@ a {
 p {
   color: #172f58;
   align-content: space-around;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-size: 18px;
 }
 
 body {
   background-color: white;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   border: 2px #091e42;
   max-width: 375px;
   height: 100vh;
@@ -32,7 +32,7 @@ body {
 }
 
 .headline-container {
-  @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,500;1,600;1,700&display=swap');
+  @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,500;1,600;1,700&display=swap");
 
   display: flex;
   align-content: flex-start;
@@ -50,7 +50,7 @@ h1 {
   margin-bottom: 5px;
   font-size: 40px;
   font-style: bold;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
 .items1 {
@@ -81,7 +81,13 @@ ul {
 
 h4 {
   color: #7f8cff;
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-family:
+    "Trebuchet MS",
+    "Lucida Sans Unicode",
+    "Lucida Grande",
+    "Lucida Sans",
+    Arial,
+    sans-serif;
 }
 
 nav:hover {
@@ -145,7 +151,7 @@ img:hover {
 }
 
 .word-title {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   padding: 16px;
 }
 
@@ -207,7 +213,7 @@ img:hover {
   font-weight: 700;
   font-size: 20px;
   line-height: 24px;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
 .frame li:nth-child(2) {
@@ -223,7 +229,7 @@ img:hover {
   font-weight: 700;
   font-size: 20px;
   line-height: 24px;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   padding-right: 10px;
 }
 
@@ -245,7 +251,7 @@ img:hover {
 .w-title ul li:nth-child(n + 2) {
   color: #7a869a;
   font-size: 13px;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   line-height: 16px;
   font-weight: 900;
   list-style-image: url(./images/dot1.png);
@@ -255,7 +261,7 @@ img:hover {
 .p-text {
   font-size: 15px;
   font-weight: 400;
-  font-style: 'Poppins', sans-serif;
+  font-style: "Poppins", sans-serif;
   color: #344563;
   vertical-align: text-top;
   line-height: 44px;
@@ -282,7 +288,7 @@ img:hover {
   background-color: #fff;
   font-size: 17px;
   text-align: center;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   color: #396df2;
   padding: 10px 20px 10px 20px;
   font-weight: 700;
@@ -318,7 +324,7 @@ img:hover {
 }
 
 .hello {
-  font-family: 'poppins', sans-serif;
+  font-family: "poppins", sans-serif;
   font-size: 20px;
   vertical-align: top;
   color: #344563;
@@ -345,7 +351,7 @@ img:hover {
 }
 
 .lan {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-size: 20px;
   text-align: left;
   color: #000;
@@ -394,4 +400,22 @@ hr.solid {
 
 button:hover {
   background-color: #1f31cf;
+}
+
+.contact-part {
+  width: 375px;
+  max-height: 930px;
+  height: auto;
+  padding: 100px 24px 0 24px;
+  background-color: #ffff;
+  text-align: center;
+}
+
+.text {
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 44px;
+  margin-bottom: 36.5px;
+  color: #172b4d;
+  text-align: center;
 }
