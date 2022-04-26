@@ -404,18 +404,64 @@ button:hover {
 
 .contact-part {
   width: 375px;
-  max-height: 930px;
+  max-height: 970px;
   height: auto;
   padding: 100px 24px 0 24px;
-  background-color: #ffff;
+  background: #6070FF;
+  border-top-left-radius: 50px;
+  color: #ffff;
   text-align: center;
 }
 
 .text {
-  font-weight: 700;
-  font-size: 32px;
-  line-height: 44px;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
   margin-bottom: 36.5px;
-  color: #172b4d;
   text-align: center;
+  color: #ffff;
+}
+
+.formie {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.formie .field {
+    width: 300px;
+    height: 48px;
+    border-radius: 8px;
+    font-size: 17px;
+    line-height: 20px;
+    font-weight: 400;
+    color: #172B4D;
+    border: none;
+}
+
+.formie .field:focus{
+  border: none;
+}
+
+.formie .typing {
+  width: 300px;
+  border-radius: 8px;
+  font-size: 17px;
+  line-height: 20px;
+  font-weight: 400;
+  color: #172b4d;
+  border: none;
+}
+
+.touch{
+  padding: 12px 16px;
+  background-color: white;
+  color:  #6070FF;
+  font-weight: 500;
+font-size: 17px;
+line-height: 24px;
+border: none;
+border-radius: 8px;
 }
