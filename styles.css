@@ -408,6 +408,8 @@ button:hover {
   height: auto;
   padding: 100px 24px 0 24px;
   background-color: #6070ff;
+  max-height: 970px;
+  color: #ffff;
   text-align: center;
   border-top-left-radius: 80px;
   background-image: url(./images/background.png);
@@ -434,6 +436,15 @@ button:hover {
   text-align: center;
   vertical-align: center;
   color: #fff;
+}
+
+.text {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  margin-bottom: 36.5px;
+  text-align: center;
+  color: #ffff;
 }
 
 .formie {
@@ -479,10 +490,12 @@ button:hover {
   font-size: 17px;
   line-height: 20px;
   font-weight: 400;
+  color: #172b4d;
   border: none;
 }
 
 .touch {
+  padding: 12px 16px;
   background-color: white;
   color: #6070ff;
   font-weight: 500;
@@ -490,9 +503,9 @@ button:hover {
   line-height: 24px;
   border: none;
   border-radius: 6px;
-  width: 120px;
   height: 35px;
   margin-right: 160px;
+  margin-bottom: 30px;
 }
 
 ::placeholder {
