@@ -404,49 +404,61 @@ button:hover {
 
 .contact-part {
   width: 375px;
-  max-height: 970px;
-  height: auto;
-  padding: 100px 24px 0 24px;
-  background: #6070ff;
-  border-top-left-radius: 50px;
+  height: 690px;
+  padding: 100px 64px 0 0;
+  background-color: #6070ff;
+  max-height: 846px;
   color: #ffff;
   text-align: center;
+  border-top-left-radius: 120px;
+  margin-top: 100px;
+  background-image: url(./images/background.png);
 }
 
-.text {
-  font-weight: 400;
-  font-size: 20px;
-  line-height: 28px;
-  margin-bottom: 36.5px;
+.header {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
   text-align: center;
-  color: #ffff;
+  vertical-align: center;
+  color: #fff;
+}
+
+.para {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  color: #ebebff;
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+  vertical-align: top;
+  padding-right: 20px;
+  margin-left: 40px;
 }
 
 .formie {
-  list-style: none;
   display: flex;
-  justify-content: center;
   flex-direction: column;
-  gap: 30px;
+  align-self: flex-start;
+  gap: 20px;
 }
 
 .formie .field {
-  width: 300px;
+  width: 327px;
   height: 48px;
   border-radius: 8px;
-  font-size: 17px;
+  font-size: 15px;
+  background-color: #fff;
   line-height: 20px;
   font-weight: 400;
-  color: #172b4d;
   border: none;
-}
-
-.formie .field:focus {
-  border: none;
+  align-self: auto;
 }
 
 .formie .typing {
-  width: 300px;
+  width: 327px;
+  height: 170px;
   border-radius: 8px;
   font-size: 17px;
   line-height: 20px;
@@ -463,5 +475,23 @@ button:hover {
   font-size: 17px;
   line-height: 24px;
   border: none;
-  border-radius: 8px;
+  border-radius: 6px;
+  height: 45px;
+  margin-right: 160px;
+}
+
+::placeholder {
+  color: #172b4d;
+  font-size: 17px;
+  text-align: left;
+  line-height: 17px;
+}
+
+.typing::placeholder {
+  color: #b3bac5;
+  font-size: 16px;
+}
+
+.shape {
+  margin-top: 50px;
 }
