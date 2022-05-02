@@ -10,7 +10,7 @@
 
 - HTML & CSS
 ## Live Demo
- [live](https://gasangw.github.io/My-portfolio/)
+ [live]( https://gasangw.github.io/My-portfolio/)
 
 ## Author
 
