@@ -9,8 +9,6 @@
 ## Built With
 
 - HTML & CSS
-## Live Demo
- [live](https://gasangw.github.io/My-portfolio/)
 
 ## Author
 
